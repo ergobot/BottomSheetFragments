@@ -1,6 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <!-- For signin colors -->
+    <color name="blue_grey_500">#607D8B</color>
+    <color name="blue_grey_600">#546E7A</color>
+    <color name="blue_grey_700">#455A64</color>
+    <color name="blue_grey_800">#37474F</color>
+    <color name="blue_grey_900">#263238</color>
+
+
+    <color name="colorPrimary">#316af7</color>
+    <color name="colorPrimaryLight">#F5F5F5</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#727272</color>
+    <color name="colorDivider">#B6B6B6</color>
+
+    <color name="colorPrimaryDark">#616161</color>
+    <color name="colorAccent">#9E9E9E</color>
+
+    <color name="colorNavigationStart">@color/color65</color>
+    <color name="colorNavigationCenter">@color/color50</color>
+    <color name="colorNavigationEnd">@color/color35</color>
+
+    <color name="color0">#000000</color>
+    <color name="color5">#010819</color>
+    <color name="color10">#020f31</color>
+    <color name="color15">#03174a</color>
+    <color name="color20">#041f62</color>
+    <color name="color25">#05277b</color>
+    <color name="color30">#062e93</color>
+    <color name="color35">#0736ac</color>
+    <color name="color40">#083ec4</color>
+    <color name="color45">#0946dd</color>
+    <color name="color50">#0a4df5</color>
+    <color name="color55">#225ff6</color>
+    <color name="color58">#316af7</color>
+    <color name="color60">#3b71f7</color>
+    <color name="color65">#5383f8</color>
+    <color name="color70">#6c94f9</color>
+    <color name="color75">#84a6fa</color>
+    <color name="color80">#9db8fb</color>
+    <color name="color85">#b5cafc</color>
+    <color name="color90">#cedbfd</color>
+    <color name="color95">#e6edfe</color>
+    <color name="color100">#ffffff</color>
+
+
+    <color name="colorStar">#F5B403</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <!--<color name="colorPrimaryLight">#F5F5F5</color>-->
+
+
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_300">#E0E0E0</color>
+
+
+
+
+
 </resources>

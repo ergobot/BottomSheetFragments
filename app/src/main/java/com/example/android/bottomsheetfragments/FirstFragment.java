@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 
 /**
@@ -30,6 +31,12 @@ public class FirstFragment extends Fragment {
     private String mParam2;
 
     private OnFragmentInteractionListener mListener;
+
+    ImageView bottomSheetImage;
+    public ImageView getBottomSheetImage(){
+        return this.bottomSheetImage;
+    }
+
 
     public FirstFragment() {
         // Required empty public constructor
@@ -66,7 +73,11 @@ public class FirstFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_first, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_first, container, false);
+
+        bottomSheetImage = (ImageView)rootView.findViewById(R.id.bottom_sheet_image);
+        ViewAnimationUtils.collapse(bottomSheetImage);
+        return rootView;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

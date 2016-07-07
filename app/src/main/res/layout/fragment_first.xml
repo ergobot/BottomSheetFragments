@@ -8,6 +8,16 @@
     android:id="@+id/container"
     android:background="@android:color/white">
 
+    <ImageView
+        android:id="@+id/bottom_sheet_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cheese_3"
+        />
+
+        <!--app:layout_behavior="com.example.android.bottomsheetfragments.BackdropBottomSheetBehavior"/>-->
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
